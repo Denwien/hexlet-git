@@ -1,0 +1,15 @@
+[project]
+name = "besitzer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = ["brain-games"] 
+
+[tool.uv.workspace]
+members = [
+    "python-project-49/.github/python-project-49/.github/workflows",
+]
