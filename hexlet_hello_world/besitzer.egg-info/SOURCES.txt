@@ -3,5 +3,7 @@ besitzer.egg-info/PKG-INFO
 besitzer.egg-info/SOURCES.txt
 besitzer.egg-info/dependency_links.txt
 besitzer.egg-info/entry_points.txt
+besitzer.egg-info/requires.txt
 besitzer.egg-info/top_level.txt
+brain_games/cli.py
 hexlet/functions.py

@@ -1,10 +1,15 @@
 [project]
 name = "besitzer"
-version = "0.1.0"
+version = "0.1.1"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "prompt>=0.4.1",
+]
+
+[tool.setuptools]
+packages = ["hexlet", "brain_games"]
 
 [dependency-groups]
 dev = ["brain-games"] 
