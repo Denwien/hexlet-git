@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 .venv/
 _pycache_/
 *.pyc
+=======
+INFO.md
+.venv/
+>>>>>>> 54700ae66ee9fbeb2323bfdbef13021c2f1a5a1f
