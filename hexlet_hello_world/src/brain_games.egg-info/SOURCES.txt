@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/brain_games/__init__.py
+src/brain_games/cli.py
+src/brain_games.egg-info/PKG-INFO
+src/brain_games.egg-info/SOURCES.txt
+src/brain_games.egg-info/dependency_links.txt
+src/brain_games.egg-info/entry_points.txt
+src/brain_games.egg-info/top_level.txt
+src/brain_games/scripts/__init__.py
+src/brain_games/scripts/brain_even.py
+src/brain_games/scripts/brain_games.py
+src/hexlet/__init__.py
+src/hexlet/functions.py

@@ -1,23 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "besitzer"
-version = "0.1.1"
-description = "Add your description here"
+name = "brain-games"
+version = "0.1.0"
+description = "Hexlet Brain Games"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "prompt>=0.4.1",
-]
-
-[tool.setuptools]
-packages = ["hexlet", "brain_games"]
-
-[dependency-groups]
-dev = ["brain-games"] 
-
-[tool.uv.workspace]
-members = [
-    "python-project-49/.github/python-project-49/.github/workflows",
-]
+requires-python = ">=3.10"
+dependencies = []
 
 [project.scripts]
-brain-games = "hexlet.functions:main"
+brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv.workspace]
+members = ["."]
