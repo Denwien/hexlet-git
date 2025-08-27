@@ -1,0 +1,3 @@
+Hello, Hexlet!
+This is a long text to reverse.
+Python makes it easy.
