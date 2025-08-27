@@ -1,0 +1,3 @@
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Vestibulum eget felis euismod, tincidunt urna nec, suscipit risus. 
+Python makes string manipulation easy.
